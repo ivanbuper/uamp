@@ -38,6 +38,11 @@
             </intent-filter>
         </receiver>
 
+        <receiver
+            android:name="androidx.mediarouter.media.MediaTransferReceiver"
+            android:exported="true">
+        </receiver>
+
         <provider
             android:name=".library.AlbumArtContentProvider"
             android:authorities="com.example.android.uamp"

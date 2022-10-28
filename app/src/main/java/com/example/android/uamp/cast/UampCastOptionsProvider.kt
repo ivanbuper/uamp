@@ -36,6 +36,7 @@ class UampCastOptionsProvider : OptionsProvider {
                     .setNotificationOptions(null)
                     .build()
             )
+            .setRemoteToLocalEnabled(true)
             .setStopReceiverApplicationWhenEndingSession(true).build()
     }
 
